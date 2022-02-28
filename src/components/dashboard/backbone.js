@@ -16,8 +16,8 @@ import Alert from "../common/alert";
 import { Link } from "react-router-dom";
 import queryString from "query-string";
 import { Layout, Menu, Button, Icon, Tooltip } from "antd";
-import main from "./main.jpg";
-import psm from "psm.jpg";
+//import main from "./main.jpg";
+
 const { Header, Sider, Content } = Layout;
 
 class Dashboard extends React.Component {
@@ -160,7 +160,7 @@ class Dashboard extends React.Component {
                 </Tooltip>
               </li>
               <li>
-                <img src={psm} alt="company logo" className="d-logo" />
+                {/* <img src={} alt="company logo" className="d-logo" /> */}
               </li>
             </ul>
           </Header>
