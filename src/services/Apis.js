@@ -44,7 +44,9 @@ const envoirnment = process.env.NODE_ENV;
 // };
 const apis = {
   BASE_LOCAL_URL:
-    process.env.NODE_ENV === "development" ? "http://localhost:3000" : "",
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : "https://oe-frontend.vercel.app",
   BASE:
     process.env.NODE_ENV === "development"
       ? "http://localhost:5000"
