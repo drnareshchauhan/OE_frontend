@@ -44,12 +44,12 @@ const envoirnment = process.env.NODE_ENV;
 // };
 const apis = {
   BASE_LOCAL_URL:
-    envoirnment === "production"
-      ? "https://oe-frontend.vercel.app"
+    envoirnment === "development"
+      ? "http://localhost:3000"
       : "https://oe-frontend.vercel.app",
   BASE:
-    envoirnment === "production"
-      ? "https://onlinepsm.herokuapp.com"
+    envoirnment === "development"
+      ? "http://localhost:5000"
       : "https://onlinepsm.herokuapp.com",
   LOGIN: "/api/v1/login/",
   GETDETAILSUSER: "/api/v1/user/details",
