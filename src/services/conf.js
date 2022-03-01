@@ -1,4 +1,4 @@
-const base = "https://psmexam.vercel.app";
+const base = "https://onlinepsm.herokuapp.com";
 const LoginApi = "/api/v1/login";
 const FetchUserDetailsApi = "/api/v1/user/details";
 
