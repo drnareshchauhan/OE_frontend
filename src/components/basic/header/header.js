@@ -5,7 +5,7 @@ function HomepageHeader(props) {
   return (
     <div>
       <div className="header-container-2">
-        {/* <img src={psm} alt="company logo" className="logo" /> */}
+        <img src="./psm.jpg" alt="company logo" className="logo" />
       </div>
     </div>
   );

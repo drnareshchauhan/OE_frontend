@@ -160,7 +160,7 @@ class Dashboard extends React.Component {
                 </Tooltip>
               </li>
               <li>
-                {/* <img src={} alt="company logo" className="d-logo" /> */}
+                {/* <img src="./psm.jpg" alt="company logo" className="d-logo" /> */}
               </li>
             </ul>
           </Header>

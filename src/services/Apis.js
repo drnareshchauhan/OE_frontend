@@ -46,7 +46,7 @@ const apis = {
   BASE_LOCAL_URL:
     envoirnment === "development"
       ? "http://localhost:3000"
-      : "https://oe-frontend.vercel.app",
+      : "https://psmexam.vercel.app",
   BASE:
     envoirnment === "development"
       ? "http://localhost:5000"

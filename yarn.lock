@@ -8783,6 +8783,13 @@
   "resolved" "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz"
   "version" "3.0.4"
 
+"react-particles-js@^3.6.0":
+  "integrity" "sha512-gQzUKZgPpjdplhAtskLnn9frLyei6uGuWabNtBGWnr3eZpHXfXJO1F8sedPhO29xfpKixE3HEejwGQAld8K16Q=="
+  "resolved" "https://registry.npmjs.org/react-particles-js/-/react-particles-js-3.6.0.tgz"
+  "version" "3.6.0"
+  dependencies:
+    "lodash" "^4.17.11"
+
 "react-redux@^7.1.0":
   "integrity" "sha512-hyu/PoFK3vZgdLTg9ozbt7WF3GgX5+Yn3pZm5/96/o4UueXA+zj08aiSC9Mfj2WtD1bvpIb3C5yvskzZySzzaw=="
   "resolved" "https://registry.npmjs.org/react-redux/-/react-redux-7.1.0.tgz"
@@ -10272,6 +10279,11 @@
   "integrity" "sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-1.10.0.tgz"
   "version" "1.10.0"
+
+"tsparticles@<2.0.0":
+  "integrity" "sha512-USK4VZsr5HxiSyCvMuC6F7+SwOrM0zJDkPNlZXLBnf++d8xJ6P+jafEKr89JVUeYCWuDyAfS2GtYaXgOC1+bOA=="
+  "resolved" "https://registry.npmjs.org/tsparticles/-/tsparticles-1.41.5.tgz"
+  "version" "1.41.5"
 
 "tsutils@^3.7.0":
   "integrity" "sha512-SmzGbB0l+8I0QwsPgjooFRaRvHLBLNYM8SeQ0k6rtNDru5sCGeLJcZdwilNndN+GysuFjF5EIYgN8GfFG6UeUw=="
