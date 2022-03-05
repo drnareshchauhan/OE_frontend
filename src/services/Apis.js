@@ -50,7 +50,7 @@ const apis = {
   BASE:
     envoirnment === "development"
       ? "http://localhost:5000"
-      : "https://onlinepsm.herokuapp.com",
+      : "http://onlinepsm.herokuapp.com",
   LOGIN: "/api/v1/login/",
   GETDETAILSUSER: "/api/v1/user/details",
   GET_ALL_TRAINER: "/api/v1/admin/trainer/details/all",
