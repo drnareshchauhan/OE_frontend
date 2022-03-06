@@ -6,7 +6,7 @@ import Login from "../login/login";
 import HomepageHeader from "../header/header";
 import auth from "../../../services/AuthServices";
 import { Redirect } from "react-router-dom";
-
+import Footer from "../footer/footer";
 function Homepage(props) {
   if (auth.retriveToken() && auth.retriveToken() !== "undefined") {
     console.log("Logged In");
@@ -18,6 +18,9 @@ function Homepage(props) {
         <div className="parallax">
           <HomepageHeader />
           <Login />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     );
