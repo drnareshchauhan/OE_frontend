@@ -93,8 +93,8 @@ class BasicTestFormO extends Component {
                 ],
               })(
                 <Select placeholder="Test Type">
-                  <Option value="pre-test">Formative</Option>
-                  <Option value="post-test">Summative</Option>
+                  <Option value="pre-test">Pre Test</Option>
+                  <Option value="post-test">Post Test</Option>
                 </Select>
               )}
             </Form.Item>
